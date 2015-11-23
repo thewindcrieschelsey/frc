@@ -1,0 +1,74 @@
+body {
+  //min-height: 2000px;
+  padding-top: 70px;
+}
+
+.jumbotron h1 {
+    color: #280BAA;
+}
+
+.navbar-default
+{
+    background-image: url("./header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 204px;
+}
+@media (min-width: 1021px) {    
+    .container{
+        width: 1020px;
+    }
+    .navbar-default
+    {
+        background-size: 990px 100%;
+    }
+    #nav-line {
+        position: relative;
+        left: 220px;
+    }
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+.navbar-default .container, #main-container
+{
+    padding-top: 153px;
+}
+
+body
+{
+      background: -webkit-gradient(linear, left top, left bottom, from(#AA0226), to(#cbccc8)) fixed;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #000;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white; /*BACKGROUND color for active*/
+    background-color: #030033;
+}
+
+.navbar-default {
+    background-color: rgba(170, 2, 38, 0);
+    border-color: rgba(170, 2, 38, 0);
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #66CCFF;  /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white; /*Change active text color here*/
+}
