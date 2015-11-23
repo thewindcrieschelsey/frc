@@ -73,3 +73,10 @@ body
 .navbar-default .navbar-nav > li > a {
     color: white; /*Change active text color here*/
 }
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    height: auto;
+    max-width: 480px;
+    display:block;
+    margin:auto;
+}
