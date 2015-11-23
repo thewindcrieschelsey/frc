@@ -1,3 +1,11 @@
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -210px; 
+  height: 210px; 
+  visibility: hidden; 
+}
+
 body {
   //min-height: 2000px;
   padding-top: 70px;
@@ -35,7 +43,8 @@ body {
  }
 .navbar-default .container, #main-container
 {
-    padding-top: 153px;
+     padding-top: 153px;
+
 }
 
 body
