@@ -16,6 +16,10 @@ body {
 	font-size: 270%;
 }
 
+#footer {
+	font-size: 80%;
+}
+
 .navbar-default
 {
     background-image: url("./header.png");
